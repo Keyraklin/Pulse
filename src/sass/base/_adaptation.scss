@@ -1,0 +1,234 @@
+@media (max-width: 1024px) {
+    .carousel__inner{
+        img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width:768px) {
+    .promo{
+        padding-left: 20px;
+        padding-right: 20px;   
+    }
+    .advantage{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .consultation{
+        padding: 100px 10px 92px 10px;
+    }
+    .slick-next{
+        img{
+            display: none;
+        }
+        
+    }
+    .catalog{
+        &__content{
+            justify-content: space-evenly;
+        }
+    }
+    .reviews{
+        padding-left: 5px;
+        padding-right: 5px;
+        &__person{
+            align-items: center;
+        }
+        
+    }
+}
+
+
+@media (max-width: 425px){
+    .promo{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__icon{
+            margin-left: 20px;
+        }
+    }
+    .header{
+        display: block;
+        &__logo{
+            img {
+                display: block;
+               margin: 0 auto;
+            }
+        }
+        &__contacts{
+            align-items:center;
+            margin-top: 5px;
+
+        }
+        &__phone{
+            font-size: 16px;
+        }
+        &__official{
+            margin-top: 15px;
+            span{
+                
+                font-size: 18px;
+            }
+            
+        }
+    }
+    .advantage{
+        &__cont{
+            display: block;
+            margin-top: 30px;
+           
+        }
+        &__cont__item{
+            width: 100%;
+            margin-top: 25px;
+            &__title{
+                margin-top: 25px;
+            }
+            &__descr{
+                br {
+                    display: none;
+                }
+                
+            }
+        }
+    }
+
+    .consultation{
+        padding: 100px 10px 92px 10px;
+
+    }
+    .carousel{
+        .slick-current{
+            width: 425px;
+        }
+        .slick-list{
+            width: 425px;
+        }
+        .slick-initialized{
+            width: 425px;
+        }
+    }
+    .reviews{
+       &__text{
+            &_info{
+                span{
+                    display: none;
+                }
+                
+            }
+        } 
+    }
+    .footer{
+        &__info{
+            width: 367px;
+            height: 245px;
+        }
+        &__social{
+            &-item{
+                width: 49px;
+                height: 49px;
+            }
+        }
+    }
+    .modal{
+        left: 43%;
+    }
+    
+    
+}
+
+@media (max-width: 375px){
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+        &__icons{
+            width: 100%;
+        }
+        &__icon{
+            font-size: 13px;
+            margin-right: 30px;
+            br{
+                display: block;
+            }
+
+        }
+    }
+    .consultation{
+        padding: 100px 10px 92px 10px;
+    }
+    .carousel{
+        &__inner{
+            img{
+                width: 100%;
+            }
+        }
+        .slick-current{
+            width: 375px;
+        }
+        .slick-list{
+            width: 375px;
+        }
+        .slick-initialized{
+            width: 375px;
+        }
+        
+    }
+    .catalog{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__tab{
+            width: 115px;
+            &:nth-last-child(3){
+                line-height: 23px;
+                font-size: 15px;
+            }
+            &:nth-last-child(1){
+                line-height: 20px;
+                font-size: 15px;
+            }
+            &:nth-last-child(2){
+                font-size: 17px;
+            }
+        }
+        &-item{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .reviews{
+        padding-left: 15px;
+        padding-right: 15px;
+        &__text{
+            &_info{
+                font-size: 15px;
+                margin-top: 10px;
+                p{
+                    display: none;
+                }
+                
+            }
+            &_name{
+                font-size: 16px;
+            }
+        }
+    }
+    .footer{
+        &__addr{
+            font-size: 20px;
+        }
+        &__info{
+            width: 367px;
+            height: 245px;
+        }
+    }
+    .modal{
+        padding: 38px 40px 40px 25px;
+        width: 350px;
+        &__close{
+            right: -31px;
+        }
+    }
+    
+
+}

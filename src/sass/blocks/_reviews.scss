@@ -1,0 +1,46 @@
+.reviews{
+    padding-bottom: 71px;
+    &__person{
+        display: flex;
+    }
+    &__text{
+        padding-left: 60px;
+    }
+    &_first{
+        margin-top: 70px;
+    }
+    &_second{
+        margin-top: 53px;
+    }
+    &_third{
+        margin-top: 49px;
+    }
+    &__text{
+        &_name{
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        &_subtitle{
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #646464;
+        }
+        &_info{
+            margin-top: 19px;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #0d0d0d;
+        }
+    }
+    hr{
+        margin-top: 49px;
+        height: 0.1px;
+        background-color: #f6f6f6;
+        border-bottom: none;
+        opacity: 0.3;
+    }
+}
