@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
+
 
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
            <header class="header">
             <a href="3" class="header__logo">
@@ -72,14 +74,14 @@
                 </div>
 
                 <div class="advantage__cont__item">
-                    <img src="img/2-dop-screen/heart.png" alt="cup" class="advantage__cont__item__img">
+                    <img src="img/2-dop-screen/heart.png" alt="heart" class="advantage__cont__item__img advantage__cont__item_animated "  >
                     <h2 class="advantage__cont__item__title">Заботимся о здоровье</h2>
                     <div class="advantage__cont__item__descr">Мы работаем для того, <br>
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
 
                 <div class="advantage__cont__item">
-                    <img src="img/2-dop-screen/shoe.png" alt="cup" class="advantage__cont__item__img">
+                    <img src="img/2-dop-screen/shoe.png" alt="shoe" class="advantage__cont__item__img">
                     <h2 class="advantage__cont__item__title">Учим бегать</h2>
                     <div class="advantage__cont__item__descr">Помогаем с обучением <br>
                         правильной технике бега! <br>
@@ -383,7 +385,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="reviews__wrapper">
-                <div class="reviews__person reviews_first">
+                <div class="reviews__person reviews_first fadeInUp wow ">
                     <div class="reviews__img">
                         <img src="img/5 screen/img1.png" alt="first">
                     </div>
@@ -403,8 +405,8 @@
                     </div>
                     
                 </div>
-                <hr>
-                <div class="reviews__person reviews_second">
+                <hr class="fadeInUp wow">
+                <div class="reviews__person reviews_second fadeInUp wow">
                     <div class="reviews__img">
                         <img src="img/5 screen/img2.png" alt="first">
                     </div>
@@ -420,8 +422,8 @@
                     </div>
                     
                 </div>
-                <hr>
-                <div class="reviews__person reviews_third">
+                <hr class="fadeInUp wow">
+                <div class="reviews__person reviews_third fadeInUp wow">
                     <div class="reviews__img">
                         <img src="img/5 screen/img3.png" alt="first">
                     </div>
@@ -491,12 +493,18 @@
     </div>
 
 
-    
+    <a href="#up" class="pageup">
+        <img src="img/up.svg" alt="up">
+    </a>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 
     
